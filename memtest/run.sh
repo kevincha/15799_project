@@ -1,0 +1,1 @@
+sudo echo 0xFFFF880000000000,0xFFFF880000000000 > /proc/memtest
