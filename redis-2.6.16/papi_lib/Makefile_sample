@@ -1,0 +1,8 @@
+CC = gcc
+PAPI_LIB=/usr/local/lib/libpapi.a
+
+sample: sample.c
+	$(CC) -I/usr/local/include $^ $(PAPI_LIB) -o $@
+
+clean:
+	rm -f sample
